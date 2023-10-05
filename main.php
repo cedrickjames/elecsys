@@ -445,9 +445,9 @@ activepage.classList.add("text-cyan-500");
 <!-- <h1 class="m-auto text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span
                     class="text-transparent bg-clip-text bg-gray-900">Certification and Registrations</span>
             </h1> -->
-  <div style=" height: 580px;" class=" mx-auto px-2 sm:px-8 py-2 lg:px-8 lg:pt-10">
+  <div style=" " class=" mx-auto px-2 sm:px-8 py-2 lg:px-8 lg:pt-10">
     <div class="h-full grid grid-col-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
-    <div style="background-color: #0f142a" class="h-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div style="height: 580px; background-color: #0f142a" class="h-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="./qualitysystem#certificates" class="h-2/5 block bg-cover bg-center" style="background-image: url('./resources/img/Elecsys Images/cert.png')">
         <!-- <img class="rounded-t-lg" src="./resources/img/Elecsys Images/cert.png" alt="" /> -->
     </a>
@@ -465,7 +465,7 @@ activepage.classList.add("text-cyan-500");
   
     </div>
 </div>
-<div style="background-color: #0f142a" class="h-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div style="height: 580px; background-color: #0f142a" class="h-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="./qualitysystem#certificates" class="h-2/5 block bg-cover bg-center" style="background-image: url('./resources/img/Elecsys Images/cert2.png')">
         <!-- <img class="rounded-t-lg" src="./resources/img/Elecsys Images/cert2.png" alt="" /> -->
     </a>
@@ -483,7 +483,7 @@ activepage.classList.add("text-cyan-500");
   
     </div>
 </div>
-<div style="background-color: #0f142a" class="h-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div style="height: 580px; background-color: #0f142a" class="h-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#" class="h-2/5 block bg-cover bg-center" style="background-image: url('./resources/img/Background Images/home_no_1_min.jpg')">
         <!-- <img class="rounded-t-lg h-52" src="./resources/img/Background Images/home_no_2_min.jpg" alt="" /> -->
     </a>
@@ -501,7 +501,7 @@ activepage.classList.add("text-cyan-500");
   
     </div>
 </div>
-<div style="background-color: #0f142a" class="h-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div style="height: 580px; background-color: #0f142a" class="h-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="./qualitysystem#vission" class="h-2/5 block bg-cover bg-center" style="background-image: url('./resources/img/Elecsys Images/mission.png')">
         <!-- <img class="rounded-t-lg h-52" src="./resources/img/Background Images/home_no_2_min.jpg" alt="" /> -->
     </a>
@@ -519,7 +519,7 @@ activepage.classList.add("text-cyan-500");
   
     </div>
 </div>
-<div style="background-color: #0f142a" class="h-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div style="height: 580px; background-color: #0f142a" class="h-full mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="./qualitysystem#qualitypolicy" class="h-2/5 block bg-cover bg-center" style="background-image: url('./resources/img/Background Images/home_no_4_min.jpg')">
         <!-- <img class="rounded-t-lg h-52" src="./resources/img/Background Images/home_no_2_min.jpg" alt="" /> -->
     </a>
@@ -743,7 +743,7 @@ activepage.classList.add("text-cyan-500");
             <div class="flex align-start">
               <div class="shrink-0">
                 <div  style="background-color: #0f142a" class="p-4  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                <a href="#" class="text-blue-500 hover:text-blue-900 dark:hover:text-white">
+                <a href="https://www.facebook.com/ElecsysMfg.ph" class="text-blue-500 hover:text-blue-900 dark:hover:text-white">
                 <i class="fa-brands fa-facebook fa-lg"></i>
               </a>
                 
@@ -751,7 +751,7 @@ activepage.classList.add("text-cyan-500");
               </div>
               <div class="grow ml-6">
                 <p class="font-bold mb-1">Facebook</p>
-                <a href="#" class="text-gray-500">Elecsys</a>
+                <a href="https://www.facebook.com/ElecsysMfg.ph" class="text-gray-500">Elecsys</a>
                
               </div>
             </div>
@@ -817,13 +817,13 @@ activepage.classList.add("text-cyan-500");
     <div class="flex items-center justify-between">
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2023 <a href="https://flowbite.com/" class="hover:underline">Elecsys</a>
         </span>
-        <!-- <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <a href="https://www.facebook.com/elecsys/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+        <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <a  href="https://www.facebook.com/ElecsysMfg.ph" target="_blank"  class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
                 <span class="sr-only">Facebook page</span>
             </a>
            
-        </div> -->
+        </div>
     </div>
 </footer>
 <!-- end of main -->
