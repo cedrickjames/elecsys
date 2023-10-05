@@ -7,66 +7,32 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
 
-if(isset($_POST["sendEmail"])){
-$message = $_POST['senderMessage'];
-$replyTo = $_POST['replyTo'];
-$senderSubject = $_POST['senderSubject'];
-$senderName = $_POST['senderName'];
-
-  $mail = new PHPMailer(true);   
-  // Passing `true` enables exceptions
-try {
-//Server settings
-$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';                       // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'ojtteam04@gmail.com';     // Your Email/ Server Email
-$mail->Password = 'sgkycqwaincxncrh';                     // Your Password
-$mail->SMTPOptions = array(
-'ssl' => array(
-'verify_peer' => false,
-'verify_peer_name' => false,
-'allow_self_signed' => true
-)
-);                         
-$mail->SMTPSecure = 'ssl';                           
-$mail->Port = 465;                                   
-
-//Send Email
-//eto ang mag front  notificationsys01@gmail.com
-
-//Recipients
-$mail->addAddress('ojtteam04@gmail.com');              
-$mail->addReplyTo($replyTo);
-
-//Attachment
-
-// if(!empty($filename)){
-//     $mail->addAttachment($location, $filename); 
-// }
-
-//Content
-$mail->isHTML(true);                                  
-$mail->Subject = $senderSubject;
-$mail->Body    = $senderName .'<br>'.$message;
-$mail->send();
-$_SESSION['message'] = 'Message has been sent';
-// echo $_SESSION['message'];
-echo '<script>alert("Message has been sent")</script>';
-// header("location: form.php");
-} catch (Exception $e) {
-$_SESSION['message'] = 'Message could not be sent. Mailer Error: '.$mail->ErrorInfo;
-echo '<script>alert("Message could not be sent. Mailer Error")</script>';
-
-
-}
-}
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{your-app-id}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{api-version}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5PFTTLRPF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -193,7 +159,87 @@ echo '<script>alert("Message could not be sent. Mailer Error")</script>';
 
 </head>
 <body class="static  bg-white dark:bg-white"  >
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '643536297933880',
+      xfbml      : true,
+      version    : 'v18.0'
+    });
+    FB.AppEvents.logPageView();
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "694663177622017");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v18.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<div id="fb-root"></div>
+
+<div id="fb-customer-chat" class="fb-customerchat"></div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "PAGE-ID");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'API-VERSION'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 <!-- button go to top -->
 
 <a onclick="topFunction()" id="myBtn" class="bg-blue-600"  title="Go to top"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
