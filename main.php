@@ -83,25 +83,31 @@ require 'vendor/autoload.php';
       opacity: 1;
     }
   }
-
+ 
   .dissolve-animation {
     animation: dissolve 1s forwards;
     transition: background-image 1s ease-in-out;
   }
 #myBtn {
-      opacity: 0; /* Hidden by default */
+    display: none; /* Hidden by default */
       position: fixed; /* Fixed/sticky position */
-      bottom: 50px; /* Place the button at the bottom of the page */
-      right: 30px; /* Place the button 30px from the right */
+      bottom: 10px; /* Place the button at the bottom of the page */
+      right: 10px; /* Place the button 30px from the right */
       z-index: 99; /* Make sure it does not overlap */
       border: none; /* Remove borders */
       outline: none; /* Remove outline */ 
       color: white; /* Text color */
       cursor: pointer; /* Add a mouse pointer on hover */
-      padding: 15px; /* Some padding */
+      padding: 0px; /* Some padding */
       border-radius: 50%; /* Rounded corners */
       font-size: 18px; /* Increase font size */
       transition: opacity 3s ease-out;
+    }
+    #chat{
+      position: fixed; /* Fixed/sticky position */
+      bottom: 50px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 999; 
     }
     
     #myBtn:hover {
@@ -159,92 +165,21 @@ require 'vendor/autoload.php';
 
 </head>
 <body class="static  bg-white dark:bg-white"  >
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '643536297933880',
-      xfbml      : true,
-      version    : 'v18.0'
-    });
-    FB.AppEvents.logPageView();
-  };
+<!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-6f9dccb1-9d8a-4357-a070-ddebd4d201d0"></div> -->
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-<div
-  class="fb-like"
-  data-share="true"
-  data-width="450"
-  data-show-faces="true">
-</div>
-<!-- Messenger Chat Plugin Code -->
-<div id="fb-root"></div>
-
-<!-- Your Chat Plugin code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
-
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "694663177622017");
-  chatbox.setAttribute("attribution", "biz_inbox");
-</script>
-
-<!-- Your SDK code -->
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v18.0'
-    });
-  };
-
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-<div id="fb-root"></div>
-
-<div id="fb-customer-chat" class="fb-customerchat"></div>
-
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "PAGE-ID");
-  chatbox.setAttribute("attribution", "biz_inbox");
-</script>
-
-
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'API-VERSION'
-    });
-  };
-
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
+<!-- <div class="FloatingButton__FloatingButtonContainer-sc-q5md4t-0 lbvXTF"><button role="button" tabindex="0" class="ButtonBase__ButtonContainer-sc-p43e7i-3 euBiGU Bubble__BubbleComponent-sc-13azvyr-0 geOiUc" type="button" style="border-radius: 100px; border-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); font-family: inherit; font-weight: bold; font-size: 16px; background-color: rgb(0, 53, 133); border-width: 0px;"><span class="ButtonBase__Overlay-sc-p43e7i-4 jUXzLe" style="padding: 10px 25px; background-color: rgba(0, 0, 0, 0);"><div class="Icon__IconContainer-sc-11wrh3u-0 hPVtvf ButtonBase__ButtonIcon-sc-p43e7i-0 ButtonBase__LeftIcon-sc-p43e7i-1 gMSomS ilvJjM"><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.993 14.47l-2.546-2.717-4.97 2.716 5.466-5.802 2.609 2.716 4.906-2.716-5.465 5.802zM12 2C6.478 2 2 6.146 2 11.26c0 2.913 1.454 5.513 3.727 7.21V22l3.405-1.868c.908.251 1.871.387 2.868.387 5.523 0 10-4.146 10-9.259C22 6.145 17.523 2 12 2z"></path></svg></div></div><span class="ButtonBase__Ellipsis-sc-p43e7i-5 dqiKFy"><div class="BubbleContent__NotificationBadge-sc-9iwasx-0 hKWkLV"></div><span class="BubbleContent__BubbleContentText-sc-9iwasx-1">Connect with us</span></span></span></button></div> -->
 <!-- button go to top -->
+<a  href="https://www.messenger.com/t/100028355195877" target="_blank"    id="myBtn"  >
+<svg class="w-full h-full"   xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+<radialGradient id="8O3wK6b5ASW2Wn6hRCB5xa_YFbzdUk7Q3F8_gr1" cx="11.087" cy="7.022" r="47.612" gradientTransform="matrix(1 0 0 -1 0 50)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1292ff"></stop><stop offset=".079" stop-color="#2982ff"></stop><stop offset=".23" stop-color="#4e69ff"></stop><stop offset=".351" stop-color="#6559ff"></stop><stop offset=".428" stop-color="#6d53ff"></stop><stop offset=".754" stop-color="#df47aa"></stop><stop offset=".946" stop-color="#ff6257"></stop></radialGradient><path fill="url(#8O3wK6b5ASW2Wn6hRCB5xa_YFbzdUk7Q3F8_gr1)" d="M44,23.5C44,34.27,35.05,43,24,43c-1.651,0-3.25-0.194-4.784-0.564	c-0.465-0.112-0.951-0.069-1.379,0.145L13.46,44.77C12.33,45.335,11,44.513,11,43.249v-4.025c0-0.575-0.257-1.111-0.681-1.499	C6.425,34.165,4,29.11,4,23.5C4,12.73,12.95,4,24,4S44,12.73,44,23.5z"></path><path d="M34.992,17.292c-0.428,0-0.843,0.142-1.2,0.411l-5.694,4.215	c-0.133,0.1-0.28,0.15-0.435,0.15c-0.15,0-0.291-0.047-0.41-0.136l-3.972-2.99c-0.808-0.601-1.76-0.918-2.757-0.918	c-1.576,0-3.025,0.791-3.876,2.116l-1.211,1.891l-4.12,6.695c-0.392,0.614-0.422,1.372-0.071,2.014	c0.358,0.654,1.034,1.06,1.764,1.06c0.428,0,0.843-0.142,1.2-0.411l5.694-4.215c0.133-0.1,0.28-0.15,0.435-0.15	c0.15,0,0.291,0.047,0.41,0.136l3.972,2.99c0.809,0.602,1.76,0.918,2.757,0.918c1.576,0,3.025-0.791,3.876-2.116l1.211-1.891	l4.12-6.695c0.392-0.614,0.422-1.372,0.071-2.014C36.398,17.698,35.722,17.292,34.992,17.292L34.992,17.292z" opacity=".05"></path><path d="M34.992,17.792c-0.319,0-0.63,0.107-0.899,0.31l-5.697,4.218	c-0.216,0.163-0.468,0.248-0.732,0.248c-0.259,0-0.504-0.082-0.71-0.236l-3.973-2.991c-0.719-0.535-1.568-0.817-2.457-0.817	c-1.405,0-2.696,0.705-3.455,1.887l-1.21,1.891l-4.115,6.688c-0.297,0.465-0.32,1.033-0.058,1.511c0.266,0.486,0.787,0.8,1.325,0.8	c0.319,0,0.63-0.107,0.899-0.31l5.697-4.218c0.216-0.163,0.468-0.248,0.732-0.248c0.259,0,0.504,0.082,0.71,0.236l3.973,2.991	c0.719,0.535,1.568,0.817,2.457,0.817c1.405,0,2.696-0.705,3.455-1.887l1.21-1.891l4.115-6.688c0.297-0.465,0.32-1.033,0.058-1.511	C36.051,18.106,35.531,17.792,34.992,17.792L34.992,17.792z" opacity=".07"></path><path fill="#fff" d="M34.394,18.501l-5.7,4.22c-0.61,0.46-1.44,0.46-2.04,0.01L22.68,19.74	c-1.68-1.25-4.06-0.82-5.19,0.94l-1.21,1.89l-4.11,6.68c-0.6,0.94,0.55,2.01,1.44,1.34l5.7-4.22c0.61-0.46,1.44-0.46,2.04-0.01	l3.974,2.991c1.68,1.25,4.06,0.82,5.19-0.94l1.21-1.89l4.11-6.68C36.434,18.901,35.284,17.831,34.394,18.501z"></path>
+</svg>
+        <span class="sr-only">Open actions menu</span>
+    </a>
 
-<a onclick="topFunction()" id="myBtn" class="bg-blue-600"  title="Go to top"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+<!-- <a onclick="topFunction()" id="myBtn" class="bg-blue-600"  title="Go to top"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
-</svg></a> 
+</svg></a>  -->
 
 
 
@@ -789,7 +724,7 @@ activepage.classList.add("text-cyan-500");
             <div class="flex align-start">
               <div class="shrink-0">
                 <div  style="background-color: #0f142a" class="p-4  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                <a href="https://www.facebook.com/ElecsysMfg.ph" class="text-blue-500 hover:text-blue-900 dark:hover:text-white">
+                <a href="https://www.messenger.com/t/100028355195877" class="text-blue-500 hover:text-blue-900 dark:hover:text-white">
                 <i class="fa-brands fa-facebook fa-lg"></i>
               </a>
                 
@@ -797,7 +732,7 @@ activepage.classList.add("text-cyan-500");
               </div>
               <div class="grow ml-6">
                 <p class="font-bold mb-1">Facebook</p>
-                <a href="https://www.facebook.com/ElecsysMfg.ph" class="text-gray-500">Elecsys</a>
+                <a href="https://www.messenger.com/t/100028355195877" class="text-gray-500">Elecsys</a>
                
               </div>
             </div>
@@ -864,7 +799,7 @@ activepage.classList.add("text-cyan-500");
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2023 <a href="https://flowbite.com/" class="hover:underline">Elecsys</a>
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <a  href="https://www.facebook.com/ElecsysMfg.ph" target="_blank"  class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            <a  href="https://www.messenger.com/t/100028355195877" target="_blank"  class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
                 <span class="sr-only">Facebook page</span>
             </a>
@@ -927,12 +862,12 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
  
   if (document.body.scrollTop >1000 || document.documentElement.scrollTop > 1000) {
-    mybutton.style.opacity = 100;
+    mybutton.style.display = "block";
   } else {
-    mybutton.style.opacity = 0;
+    mybutton.style.display = "block";
   }
 }
-
+mybutton.style.transition = "opacity 3s";
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
