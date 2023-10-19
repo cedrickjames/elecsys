@@ -367,7 +367,7 @@ activepage.classList.add("text-cyan-500");
         </div>
       </div>
       <div class="text-center sm:text-left">
-      <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">IATF 16949:2016</h1>
+      <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">IATF 16949:2016 (Automotive Product)</h1>
         <p class="text-justify mt-6 text-lg leading-8 text-gray-600">This certifies that the Quality Management System of Elecsys Manufacturing Corporation has been assessed by NSF-ISR and found to be in conformance to the IATF 16949:2016</p>
         <h3 class="text-left mt-4 text-2xl font-bold tracking-tight text-gray-600 text-xl sm:text-2xl">	Scope of Registration:</h3>
         <p class="text-justify  mt-2 text-lg leading-8 text-gray-600">Manufacture of printed circuit board assembly (PCBA)
@@ -451,13 +451,13 @@ activepage.classList.add("text-cyan-500");
             Our mission is to exceed curtomer's expectations by providing the highest quality products with the most competitive prices  in a timely manner.
             </p>
             <div class="inline-flex items-center justify-center w-full">
-                <hr id="vission" class="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-300">
+                <hr id="vision" class="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-300">
             </div>
-            <h1  class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-4xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Vission</span>
+            <h1  class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-4xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Vision</span>
             </h1>
 
             <p class="justify-center font-light text-2xl text-gray-900 dark:text-gray-900">
-           As a world-class electronic manufacturing company, our vission is not to be the biggest contract manufacturer but one of the best with leading edge technology as a standard while not forgetting our roots.
+           As a world-class electronic manufacturing company, our vision is not to be the biggest contract manufacturer but one of the best with leading edge technology as a standard while not forgetting our roots.
             </p>
             <div class="text-lg ml-4">
 
@@ -482,25 +482,33 @@ activepage.classList.add("text-cyan-500");
         <div  class="  col-span-3 md:col-span-2 m-2 sm:m-10">
         <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-100">Quality Policy</span>
             </h1>
+            <p class="mt-6 text-lg text-justify leading-8 text-gray-300">Elecsys MFG strives to be the best business partner to our customers by providing exceptional products and services without compromising quality. Elecsys Staff know that quality is paramount and comes first in the organization. This is achieved by continuously increasing our knowledge about our customers requirements, products, supply chain and processes.</p>
+            <p class="mt-6 text-lg text-justify leading-8 text-gray-300">We guarantee our commitment by:</p>\
+            <br>
+            
             <div  class="">
-            <p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">C</span>lient focus is the 
-            approach of Elecsys to
+            <p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">C</span>ontinually training all employees’ thereby enhancing their skills and Knowledge.
             </p>
-            <p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">U</span>pgrade services and achieved product requirements
+            <p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">C</span>ontinuous improvement by using Lean principles and necessary tools.
            
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">S</span>ustain continual improvement of the Quality Management System by providing necessary trainings; Implement
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">T</span>uracking Key Performance Indicators (KPIs) by internal audits and reporting.
            
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">T</span>ime bound to meet delivery; Use
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">E</span>nsuring that our Policy and Process Manuals reflect what we actually do.
            
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">0</span>pportunity and strength to advance and ensure continuous improvement; We
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">M</span>aking every staff member a part of the quality team not as individuals.
            
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">M</span>easure performance to guarantee customer satisfaction;
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">R</span>equiring the same commitment from our suppliers.
            
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">E</span>nhance quality awareness of employees at all level of all organization;
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">U</span>sing fair trade principles and acting ethically with honesty and integrity.
            
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">R</span>esult driven to ensure customers, shareholders and employees have their expectation exceeded while complying to related statutory and regulatory requirements.
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">E</span>stablishing processes to deliver products on time, with zero defects to our customers.
            
-            </p>
+            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">C</span>ontinuously improving our quality system to meet our customers’. expectations and meet the ISO9000 and IATF standards.
+           
+           </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">T</span>rain all staff to exceed our customers’ expectations.
+           
+           </p>
+            
             </div>
          
            <div >
@@ -578,7 +586,7 @@ activepage.classList.add("text-cyan-500");
     </a>
     <div class="p-5">
         <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Vission</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Vision</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">As a world-class electronic manufacturing company, our vision is not to be the biggest contract manfacturer but one of the best with leading edge ...</p>
         <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:bg-sky-600 dark:hover:bg-blue-600 dark:focus:ring-sky-800">

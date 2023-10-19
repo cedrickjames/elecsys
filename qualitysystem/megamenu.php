@@ -236,7 +236,7 @@ display: block;
                       <p class="mb-1 font-semibold ">
                        IATF 16949: 2016
                       </p>
-                      <p></p>
+                      </p>Automotive Product</p>
                     </div>
                   </a>
                   <a href="#certificates2" aria-current="true"
@@ -250,7 +250,7 @@ display: block;
                       <p class="mb-1 font-semibold ">
                        ISO 9001
                       </p>
-                      <p>Quality Management Systemy</p>
+                      <p>Quality Management System</p>
                     </div>
                   </a>
                  
@@ -259,7 +259,7 @@ display: block;
                 <div>
                   <p
                     class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
-                    Mission / Vission
+                    Mission / Vision
                   </p>
                   <a href="#mission" aria-current="true"
                     class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
@@ -275,7 +275,7 @@ display: block;
                       <p></p>
                     </div>
                   </a>
-                  <a href="#vission" aria-current="true"
+                  <a href="#vision" aria-current="true"
                     class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Background Images/home_no_6_min.jpg"
@@ -284,7 +284,7 @@ display: block;
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                       Vission
+                       Vision
                       </p>
                       <p></p>
                     </div>
@@ -631,7 +631,7 @@ display: block;
                 <div>
                   <p
                     class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
-                    Mission and Vission
+                    Mission and Vision
                   </p>
                   <a href="../qualitysystem#mission" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
@@ -647,7 +647,7 @@ display: block;
                       <!-- <p>Sta. Rosa City, Laguna</p> -->
                     </div>
                   </a>
-                  <a href="../qualitysystem#vission" aria-current="true"
+                  <a href="../qualitysystem#vision" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Background Images/home_no_6_min.jpg"
@@ -656,7 +656,7 @@ display: block;
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                       Vission
+                       Vision
                       </p>
                       <!-- <p>Mabalacat City, Pampanga</p> -->
                     </div>

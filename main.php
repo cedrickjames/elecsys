@@ -136,7 +136,9 @@ require 'vendor/autoload.php';
     order: -1; /* Default order */
   }
 
-
+  [data-modal-target="defaultModal"] {
+    cursor: pointer;
+}
 
 </style>
     
@@ -250,7 +252,7 @@ activepage.classList.add("text-cyan-500");
 </div>
   </div>
  
-<section class="mt-0 sm:mt-24 mb-22" id="home">
+<section class="mt-0 sm:mt-24 mb-22" id="capabilities">
 
   <div class="px-0 sm:px-32  py-12 md:px-32 bg-white text-gray-800 text-center lg:text-left">
     <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span
@@ -274,7 +276,50 @@ activepage.classList.add("text-cyan-500");
                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                             clip-rule="evenodd"></path>
                     </svg>
-                    Electronic and Microelectronics Assembly
+                    
+                    <a   data-modal-target="defaultModal" data-modal-toggle="defaultModal" >Electronic and Microelectronics Assembly</a>
+                </li>
+                <div id="defaultModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-16 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative w-full max-w-2xl max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <!-- Modal header -->
+            <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                Electronic and Microelectronics Assembly
+                </h3>
+                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="defaultModal" >
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-6 space-y-6">           
+            <video class="w-full h-auto max-w-full" muted  controls>
+              <source src="resources/vid/samplevideo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            </div>
+            <!-- Modal footer -->
+            <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                
+            </div>
+        </div>
+    </div>
+</div>
+                <li class="flex items-center text-justify">
+                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <a   data-modal-target="defaultModal" data-modal-toggle="defaultModal" >Electro-Mechanical Assembly</a>
+
+                    
                 </li>
                 <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
@@ -283,7 +328,8 @@ activepage.classList.add("text-cyan-500");
                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                             clip-rule="evenodd"></path>
                     </svg>
-                    Electro-Mechanical Assembly
+                    <a   data-modal-target="defaultModal" data-modal-toggle="defaultModal" >X-ray analysis system</a>
+                    
                 </li>
                 <li class="flex items-center text-justify">
                     <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
@@ -292,16 +338,8 @@ activepage.classList.add("text-cyan-500");
                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                             clip-rule="evenodd"></path>
                     </svg>
-                    X-ray analysis system
-                </li>
-                <li class="flex items-center text-justify">
-                    <svg class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    Seven fully equipped SMT lines with in-line soder paste inspection machine.
+                    
+                    <a   data-modal-target="defaultModal" data-modal-toggle="defaultModal" >Seven fully equipped SMT lines with in-line soder paste inspection machine.</a>
 
                 </li>
                 <li class="flex items-center text-justify">
@@ -488,7 +526,7 @@ activepage.classList.add("text-cyan-500");
     </a>
     <div class="h-3/5 p-5">
         <a href="./qualitysystem#vission" style="height: 23%" class="block">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Vission</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Our Vision</h5>
         </a>
         <p style="height: 57%" class="mb-3 font-normal text-gray-400 ">As a world-class electronic manufacturing company, our vision is not to be the biggest contract manfacturer but one of the best with leading edge ...</p>
         <div style="height: 20%">

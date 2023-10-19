@@ -182,7 +182,7 @@ display: block;
             href="main.php" data-te-ripple-init data-te-ripple-color="light">Home</a>
         </li>
         <li class="mb-2 dropdown justify-center h-full items-center flex" >
-          <a class="  flex items-center whitespace-nowrap py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-cyan-600 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
+          <a class="  flex items-center whitespace-nowrap py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
             href="qualitysystem" data-te-ripple-init data-te-ripple-color="light" data-te-ripple-duration="100ms" type="button"
             id="dropdownMenuButtonQ" data-te-dropdown-toggle-ref aria-expanded="false" data-te-nav-link-ref
             es>Quality System
@@ -259,7 +259,7 @@ display: block;
                 <div>
                   <p
                     class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
-                    Mission / Vission
+                    Mission / Vision
                   </p>
                   <a href="qualitysystem" aria-current="true"
                     class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
@@ -284,7 +284,7 @@ display: block;
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                       Vission
+                       Vision
                       </p>
                       <p></p>
                     </div>
@@ -428,12 +428,20 @@ display: block;
           </div>
         </li>
         <li class=" mb-2 justify-center h-full items-center flex">
-          <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
+          <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
             href="aboutus" data-te-ripple-init data-te-ripple-color="light">About Us</a>
         </li>
         <li class=" mb-2 justify-center h-full items-center flex">
-          <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
+          <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
             href="contact" data-te-ripple-init data-te-ripple-color="light">Contact Us</a>
+        </li>
+        <li class=" mb-2 justify-center h-full items-center flex">
+          <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
+            href="aboutus" data-te-ripple-init data-te-ripple-color="light">Virtual Tour</a>
+        </li>
+        <li class=" mb-2 justify-center h-full items-center flex">
+          <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
+            href="main.php#capabilities" data-te-ripple-init data-te-ripple-color="light">Capabilities</a>
         </li>
       </ul>
     </div>
@@ -611,9 +619,8 @@ display: block;
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                      IATF 16949: 2016
-                      </p>
-                      <!-- <p>near Sucat Exit SLEX</p> -->
+                      IATF 16949: 2016 
+                      </p>Automotive Product</p>
                     </div>
                   </a>
                   <a href="qualitysystem#certificates2" aria-current="true"
@@ -627,7 +634,7 @@ display: block;
                       <p class="mb-1 font-semibold ">
                       ISO 9001
                       </p>
-                      <p>Quality Management Systemy</p>
+                      <p>Quality Management System</p>
                     </div>
                   </a>
                  
@@ -636,7 +643,7 @@ display: block;
                 <div>
                   <p
                     class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
-                    Mission and Vission
+                    Mission and Vision
                   </p>
                   <a href="qualitysystem#mission" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
@@ -652,7 +659,7 @@ display: block;
                       <!-- <p>Sta. Rosa City, Laguna</p> -->
                     </div>
                   </a>
-                  <a href="qualitysystem#vission" aria-current="true"
+                  <a href="qualitysystem#vision" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="resources/img/Background Images/home_no_6_min.jpg"
@@ -661,7 +668,7 @@ display: block;
                     </div>
                     <div class="ml-4 grow">
                       <p class="mb-1 font-semibold ">
-                       Vission
+                       Vision
                       </p>
                       <!-- <p>Mabalacat City, Pampanga</p> -->
                     </div>
