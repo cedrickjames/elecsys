@@ -260,7 +260,7 @@ activepage.classList.add("text-cyan-500");
 
 
     <div class="grid md:grid-cols-2 gap-0 md:gap-12 flex items-center">
-    <div class=" max-w-2xl pt-32 md:pt-0  md:pb-64 pb-10">
+    <div class="  pt-32 md:pt-0  md:pb-64 pb-10">
 
       <div class="text-center sm:text-left">
         <h1 class="text-4xl font-bold tracking-tight text-gray-200 sm:text-6xl">Quality System</h1>
@@ -273,7 +273,7 @@ activepage.classList.add("text-cyan-500");
         </div> -->
       </div>
     </div>
-    <div class=" max-w-2xl  sm:py-14 py-0">
+    <div class="   sm:py-14 py-0">
   
 <div class="hidden md:grid grid-cols-3 gap-3">
     <div class="grid gap-4">
@@ -357,7 +357,7 @@ activepage.classList.add("text-cyan-500");
   <h1 class=" text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span
         class="text-transparent bg-clip-text bg-gray-900">Certifications</span>
     </h1>
-    <div class="container">
+    <div class="container m-auto">
       <div class="grid lg:grid-cols-2 gap-12 flex items-center">
         <div  class="mt-4 sm:mt-12 lg:mt-0 ">
         <div >
@@ -391,7 +391,7 @@ activepage.classList.add("text-cyan-500");
         </div>
       </div>
   </div>
-  <div class="container" id="certificates2">
+  <div class="container m-auto" id="certificates2">
       <div class="grid lg:grid-cols-2 gap-12 flex items-center">
         <div  class="mt-12 lg:mt-0 ">
         <div >
@@ -469,7 +469,7 @@ activepage.classList.add("text-cyan-500");
   </div>
   <div class="hidden md:block col-span-1 ">
 
-<div style="background-image: url('../resources/img/Background Images/home_no_3_min.jpg');background-position:center;  background-repeat: no-repeat; background-size: cover;" class="w-full h-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+<div style="background-image: url('../resources/img/Background Images/home_no_3_min.jpg');background-position:center;  background-repeat: no-repeat; background-size: cover;" class="w-full h-full p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
     
 </div>
 
@@ -483,7 +483,7 @@ activepage.classList.add("text-cyan-500");
         <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-100">Quality Policy</span>
             </h1>
             <p class="mt-6 text-lg text-justify leading-8 text-gray-300">Elecsys MFG strives to be the best business partner to our customers by providing exceptional products and services without compromising quality. Elecsys Staff know that quality is paramount and comes first in the organization. This is achieved by continuously increasing our knowledge about our customers requirements, products, supply chain and processes.</p>
-            <p class="mt-6 text-lg text-justify leading-8 text-gray-300">We guarantee our commitment by:</p>\
+            <p class="mt-6 text-lg text-justify leading-8 text-gray-300">We guarantee our commitment by:</p>
             <br>
             
             <div  class="">
@@ -521,7 +521,7 @@ activepage.classList.add("text-cyan-500");
   </div>
   <div class="hidden md:block col-span-1 m-10">
 
-<div style="background-image: url('../resources/img/Background Images/home_no_4_min.jpg');background-position:center;  background-repeat: no-repeat; background-size: cover;" class="w-full h-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+<div style="background-image: url('../resources/img/quality.png');background-position:center;  background-repeat: no-repeat; background-size: cover;" class="w-full h-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
     
 </div>
 
