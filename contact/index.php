@@ -256,7 +256,7 @@ activepage.classList.add("text-cyan-500");
 <div class="relative bg-gray-900 h-full"> 
 <div class="px-0 lg:px-0 bg-gradient-to-r from-sky-950 to-transparent via-gray-900 h-full">
     <!-- <div id="slideshow" class="absolute inset-0 bg-cover bg-no-repeat h-full"></div> -->
-<div class="relative pt-20 pb-4 isolate w-full p-4 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full"  style="background-image: url('../resources/img/Wolrd Map.png'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+<div class="relative pt-20 pb-4 isolate w-full p-4 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full"  style="background-image: url('../resources/img/Wolrd Map1.png'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
 
 
 <!--    
@@ -493,9 +493,9 @@ activepage.classList.add("text-cyan-500");
       <div class="grow-0 shrink-0 basis-auto  mb-4 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
         
       <!-- <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Elecsys Mfg. Corp, Lot 1B, Block 6, Phase II PEZA, Rosario, 4106 Cavite&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" style=""></iframe> -->
-        <iframe width="100%" height="100%" class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=993&amp;height=400&amp;hl=en&amp;q=Repco Hoxton Park&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        <!-- <iframe width="100%" height="100%" class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=993&amp;height=400&amp;hl=en&amp;q=Repco Hoxton Park&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> -->
         
-
+          <iframe class="gmap_iframe" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Suite 9, 138-140, Elizabeth Drive Liverpool N.S.W. 2170, Australia&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 
 
 
@@ -595,6 +595,89 @@ activepage.classList.add("text-cyan-500");
         <h2 class="text-2xl font-bold mb-12 px-6">United States of America</h2>
       </div>
     </div>
+      <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
+        <div class="flex flex-wrap">
+          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+            <div class="flex items-start">
+              <div class="shrink-0">
+                <div style="background-color: #0f142a"
+                  class="p-4 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                  <a href="#" class="text-white hover:text-gray-200 dark:hover:text-white">
+                    <i class="fa-solid fa-location-dot fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="grow ml-6">
+                <p class="font-bold mb-1">Location</p>
+                <p class="text-gray-500">5424 Sunol Blvd 10 243 Pleasanton, CA 94566 USA</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+            <div class="flex items-start">
+              <div class="shrink-0">
+                <div style="background-color: #0f142a"
+                  class="p-4  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                  <a href="#" class="text-white hover:text-gray-200 dark:hover:text-white">
+                    <i class="fa-solid fa-envelope fa-lg"></i>
+                  </a>
+
+                </div>
+              </div>
+              <div class="grow ml-6">
+                <p class="font-bold mb-1">Email</p>
+
+                <p class="text-gray-500">sales@elecsysmfg.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+            <div class="flex align-start">
+              <div class="shrink-0">
+                <div style="background-color: #0f142a"
+                  class="p-4  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                  <a href="#" class="text-white hover:text-gray-200 dark:hover:text-white">
+                    <i class="fa-solid fa-phone fa-lg"></i>
+                  </a>
+
+                </div>
+              </div>
+              <div class="grow ml-6">
+                <p class="font-bold mb-1">Telephone (Toll Free)</p>
+                <p class="text-gray-500">1-866-8993532</p>
+
+
+              </div>
+            </div>
+          </div>
+          
+          
+
+        </div>
+      </div>
+        </div>
+        <br>
+    <br>
+    <br>
+        <div class="flex flex-wrap">
+      <div class="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
+        
+
+      <iframe class="gmap_iframe" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=14019 S GESSNER, STE D MISSOURI CITY, TX 77489&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+          <!-- <iframe width="100%" height="100%" class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=993&amp;height=400&amp;hl=en&amp;q=5424 Sunol Blvd 10 243 Pleasanton, CA 94566 USA&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> -->
+<!--          
+<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=14019 S GESSNER, STE D MISSOURI CITY, TX 77489&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections NYT</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+ -->
+
+
+      </div>
+      
+      <!-- <div class="flex lg:hidden justify-left">
+      <div class="text-center lg:max-w-3xl md:max-w-xl">
+        <h2 class="text-2xl font-bold mb-12 px-6">United States of America</h2>
+      </div>
+    </div> -->
       <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
         <div class="flex flex-wrap">
           <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
