@@ -256,16 +256,16 @@ activepage.classList.add("text-cyan-500");
 <div class="relative bg-gray-900 h-full"> 
 <div class="px-0 lg:px-0 bg-gradient-to-r from-sky-950 to-transparent via-gray-900 h-full">
     <!-- <div id="slideshow" class="absolute inset-0 bg-cover bg-no-repeat h-full"></div> -->
-<div class="relative pt-20 pb-4 isolate w-full p-4 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full">
+<div class="relative pt-20 pb-4 isolate w-full p-4 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full"  style="background-image: url('../resources/img/Wolrd Map.png'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
 
 
-   
+<!--    
     <section class=" text-gray-600 body-font relative h-full w-full">
   <div class="absolute inset-0 bg-gray-300">
     <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Elecsys Mfg. Corp, Lot 1B, Block 6, Phase II PEZA, Rosario, 4106 Cavite&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" style=""></iframe>
   </div>
   
-</section>
+</section> -->
  
   </div>
 </div>

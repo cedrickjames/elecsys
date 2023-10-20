@@ -263,10 +263,10 @@ activepage.classList.add("text-cyan-500");
     <div class="  pt-32 md:pt-0  md:pb-64 pb-10">
 
       <div class="text-center sm:text-left">
-        <h1 class="text-4xl font-bold tracking-tight text-gray-200 sm:text-6xl">Quality System</h1>
-        <h3 class="mt-4 text-2xl font-bold tracking-tight text-gray-200 text-xl sm:text-2xl">Making sure we provide the highest quality.</h3>
+        <h1 class="2xl:text-8xl text-4xl font-bold tracking-tight text-gray-200 sm:text-6xl">Quality System</h1>
+        <h3 class="2xl:text-4xl  mt-4 text-2xl font-bold tracking-tight text-gray-200 text-xl sm:text-2xl">Making sure we provide the highest quality.</h3>
 
-        <p class="text-justify mt-6 text-lg leading-8 text-gray-300"> Electronic Systems Manufacturing Corp. (Elecsys MFG) has developed an outstanding reputation for customer service, on time delivery and producing high quality products at very competitive prices. We are able to provide consignment and turnkey manufacturing solutions for through hole and surface mount assemblies, testing and right through to complete box builds.</p>
+        <p class="2xl:text-2xl text-justify mt-6 text-lg leading-8 text-gray-300"> Electronic Systems Manufacturing Corp. (Elecsys MFG) has developed an outstanding reputation for customer service, on time delivery and producing high quality products at very competitive prices. We are able to provide consignment and turnkey manufacturing solutions for through hole and surface mount assemblies, testing and right through to complete box builds.</p>
         <!-- <div class="mt-10 flex items-center sm:items-left justify-center sm:justify-start gap-x-6">
           <a href="#home" class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Get started</a>
           <a href="#more" class="text-sm font-semibold leading-6 text-gray-300">Learn more <span aria-hidden="true">→</span></a>
@@ -444,7 +444,7 @@ activepage.classList.add("text-cyan-500");
     <div class="grid grid-cols-3 bg-red ">
         <div  class="col-span-3 md:col-span-2 m-2 sm:mx-10">
             <!-- <p class="ml-1 my-4 text-lg text-gray-500">License: HLURB LTS No. 30729</p> -->
-            <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-4xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Mission</span>
+            <h1 class="2xl:text-5xl mb-4 text-4xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-5xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Mission</span>
             </h1>
 
             <p class="justify-center font-light text-2xl text-gray-900 dark:text-gray-900">
@@ -453,7 +453,7 @@ activepage.classList.add("text-cyan-500");
             <div class="inline-flex items-center justify-center w-full">
                 <hr id="vision" class="w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-300">
             </div>
-            <h1  class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-4xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Vision</span>
+            <h1  class="2xl:text-5xl mb-4 text-4xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-5xl"><span class="text-transparent bg-clip-text bg-gray-900">Our Vision</span>
             </h1>
 
             <p class="justify-center font-light text-2xl text-gray-900 dark:text-gray-900">
@@ -480,7 +480,7 @@ activepage.classList.add("text-cyan-500");
   <section id="qualitypolicy"class=" mb-22 m-0  bg-gray-900  ">
     <div class=" grid grid-cols-3 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90%">
         <div  class="  col-span-3 md:col-span-2 m-2 sm:m-10">
-        <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-100">Quality Policy</span>
+        <h1 class="mb-4  text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gray-100">Quality Policy</span>
             </h1>
             <p class="mt-6 text-lg text-justify leading-8 text-gray-300">Elecsys MFG strives to be the best business partner to our customers by providing exceptional products and services without compromising quality. Elecsys Staff know that quality is paramount and comes first in the organization. This is achieved by continuously increasing our knowledge about our customers requirements, products, supply chain and processes.</p>
             <p class="mt-6 text-lg text-justify leading-8 text-gray-300">We guarantee our commitment by:</p>

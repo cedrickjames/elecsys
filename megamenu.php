@@ -513,35 +513,39 @@ display: block;
         <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         <span class="sr-only">Close menu</span>
     </button>
-<div class="h-4/6 p-4 grid grid-cols-2 md:grid-cols-3 gap-2">
-  <a href="main.php">  
-    <div class="h-full rounded-lg"  style="background-image: url('resources/img/Elecsys Images/manufacturing-capabilitites.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+<div class="h-4/6 p-4 grid  grid-cols-2 md:grid-cols-3 gap-2">
+<a class="" href="main.php">  
+    <div class=" rounded-lg "  style="background-image: url('resources/img/Elecsys Images/manufacturing-capabilitites.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Home <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Home<span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    
     </div>
-    </div>
-  </a>
-  <a  data-drawer-target="qualitysystem" data-drawer-show="qualitysystem" aria-controls="qualitysystem"  >  
-    <div class="h-full rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_1_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
-    <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
-
-    <div  class="row-start-4 row-span-2 text-white font-extrabold">Quality System <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
-    </div>
-  
- 
     </div>
             </a>
-            <a class="hidden"  data-drawer-target="services" data-drawer-show="services" aria-controls="services" >  
-    <div class="h-full rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_2_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+  <!-- <a data-drawer-target="qualitysystem" data-drawer-show="qualitysystem" aria-controls="qualitysystem">
+    <div class=" rounded-lg "
+      style="background-image: url('resources/img/Elecsys Images/manufacturing-capabilitites.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+      <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full bg-gray-900 bg-opacity-50">
+
+        <div class="row-start-4 row-span-2 text-white font-extrabold">Quality System <span class="m-2"><i
+              class="fa-solid fa-greater-than"></i></span></div>
+      </div>
+
+
+    </div>
+  </a> -->
+  <a data-drawer-target="qualitysystem" data-drawer-show="qualitysystem" aria-controls="qualitysystem">  
+    <div class=" rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_1_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Virtual Tour <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Quality System<span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    
     </div>
     </div>
             </a>
             <a class="" href="aboutus">  
-    <div class="h-full rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_6_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+    <div class=" rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_6_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
     <div class="row-start-4 row-span-2 text-white font-extrabold">About Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
@@ -550,11 +554,27 @@ display: block;
     </div>
             </a>
             <a class="" href="contact">  
-    <div class="h-full rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_5_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+    <div class="rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_5_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
     <div class="row-start-4 row-span-2 text-white font-extrabold">Contact Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
     
+    </div>
+    </div>
+            </a>
+            <a class="" >  
+    <div class=" rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_3_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+    <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
+
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Virtual Tour <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    </div>
+    </div>
+            </a>
+            <a class="" >  
+    <div class=" rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_4_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+    <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
+
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Capabilities<span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
     </div>
     </div>
             </a>
