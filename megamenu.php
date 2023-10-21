@@ -318,115 +318,7 @@ display: block;
             </div>
           </div>
         </li>
-        <li class="hidden mb-2 dropdown justify-center h-full items-center flex" >
-          <a class="  flex items-center whitespace-nowrap py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-cyan-600 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
-            href="services" data-te-ripple-init data-te-ripple-color="light" data-te-ripple-duration="100ms" type="button"
-            id="dropdownMenuButtonQ" data-te-dropdown-toggle-ref aria-expanded="false" data-te-nav-link-ref
-            es>Virtual Tour
-            <span class="ml-2 w-2">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
-                <path fill-rule="evenodd"
-                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                  clip-rule="evenodd" />
-              </svg>
-            </span>
-          </a>
-          <div class="mega-menu top-16">
-            <div
-              class="dropdown-content -6 py-5 lg:px-8 w-3/4 xl:w-2/4 m-auto  rounded-lg border-none bg-white bg-clip-padding shadow-lg dark:bg-neutral-50">
-              <div class="grid gap-6 md:grid-cols-3 xl:grid-cols-2  text-xs dark:text-black">
-                <div>
-                  <p
-                    class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
-
-                    Real Estate Services
-                  </p>
-
-                  <a href="services" aria-current="true"
-                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower1.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        All Agent Services
-                      </p>
-                
-                    </div>
-                  </a>
-                  <a href="services/buy-with-an-agent.php" aria-current="true"
-                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower2.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                       But with an Agent  
-                      </p>
-                     
-                    </div>
-                  </a>
-                  <a href="services/rent-with-an-agent.php" aria-current="true"
-                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower3.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Rent with an Agent
-                      </p>
-          
-                    </div>
-                  </a>
-                  <a href="services/lease-with-an-agent.php" aria-current="true"
-                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower3.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                        Lease with an Agent
-                      </p>
-          
-                    </div>
-                  </a>
-                </div>
-                <div>
-                  <p
-                    class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
-                    Other Services
-                  </p>
-                  <a href="services/mortgage.php" aria-current="true"
-                    class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
-                    <div class="shrink-0">
-                      <img src="resources/img/natsutower2.jpg"
-                        class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
-                        alt="Hollywood Sign on The Hill" />
-                    </div>
-                    <div class="ml-4 grow">
-                      <p class="mb-1 font-semibold ">
-                       Mortgage Services
-                      </p>
-                     
-                    </div>
-                  </a>
-                 
-
-                </div>
-                
-
-              </div>
-            </div>
-          </div>
-        </li>
+       
         <li class=" mb-2 justify-center h-full items-center flex">
           <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
             href="aboutus" data-te-ripple-init data-te-ripple-color="light">About Us</a>
@@ -437,7 +329,7 @@ display: block;
         </li>
         <li class=" mb-2 justify-center h-full items-center flex">
           <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
-            href="aboutus" data-te-ripple-init data-te-ripple-color="light">Virtual Tour</a>
+            href="virtualTour" data-te-ripple-init data-te-ripple-color="light">Virtual Tour</a>
         </li>
         <li class=" mb-2 justify-center h-full items-center flex">
           <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
@@ -518,7 +410,7 @@ display: block;
     <div class=" rounded-lg "  style="background-image: url('resources/img/Elecsys Images/manufacturing-capabilitites.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Home<span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Home<span class="m-2"></i></span></div>
     
     </div>
     </div>
@@ -531,15 +423,15 @@ display: block;
         <div class="row-start-4 row-span-2 text-white font-extrabold">Quality System <span class="m-2"><i
               class="fa-solid fa-greater-than"></i></span></div>
       </div>
-
+ 
 
     </div>
-  </a> -->
+  </a> --> 
   <a data-drawer-target="qualitysystem" data-drawer-show="qualitysystem" aria-controls="qualitysystem">  
     <div class=" rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_1_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Quality System<span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Quality System<span class="m-2"></i></span></div>
     
     </div>
     </div>
@@ -548,7 +440,7 @@ display: block;
     <div class=" rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_6_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">About Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">About Us <span class="m-2"></i></span></div>
     
     </div>
     </div>
@@ -557,16 +449,16 @@ display: block;
     <div class="rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_5_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Contact Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Contact Us <span class="m-2"></i></span></div>
     
     </div>
     </div>
             </a>
-            <a class="" >  
+            <a class="" href="virtualTour">  
     <div class=" rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_3_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Virtual Tour <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Virtual Tour <span class="m-2"></i></span></div>
     </div>
     </div>
             </a>
@@ -574,7 +466,7 @@ display: block;
     <div class=" rounded-lg "  style="background-image: url('resources/img/Background Images/home_no_4_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Capabilities<span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Capabilities<span class="m-2"></i></span></div>
     </div>
     </div>
             </a>

@@ -113,7 +113,7 @@
 
 
 </head>
-<body  class="static  bg-white dark:bg-white"  >
+<body  class="static  bg-white dark:bg-white h-screen"  >
 <a onclick="topFunction()" id="myBtn" class="bg-blue-600"  title="Go to top"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
 </svg></a> 
@@ -149,10 +149,10 @@ activepage.classList.add("text-cyan-600");
 
  <!--banner section start -->
  <!-- Container for demo purpose -->
-<div>
+<div class="h-full">
 
 
-<div class="bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% relative isolate overflow-hidden bg-gray-900  py-16 sm:py-24 md:py-32">
+<div class="h-full bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% relative isolate overflow-hidden bg-gray-900  py-16 sm:py-24 md:py-32">
   <!-- <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"> -->
   <svg viewBox="0 0 1097 845" aria-hidden="true" class="hidden transform-gpu blur-3xl sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:w-[68.5625rem]">
     <path fill="url(#10724532-9d81-43d2-bb94-866e98dd6e42)" fill-opacity=".2" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
@@ -209,49 +209,8 @@ activepage.classList.add("text-cyan-600");
       <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Elecsys President</dd>
     </div> -->
 
-    <section class="mt-16 sm:mt-24 mb-22 " id="aboutus">
-    <div class="mx-auto  w-5/6">
-      <h2 class="text-2xl font-bold tracking-tight text-white sm:text-4xl">Excellence</h2>
-      <p class="mt-6 text-lg text-justify leading-8 text-gray-300">Since its inception, Electronic Systems Manufacturing Corp. (Elecsys MFG) has developed an outstanding reputation for customer service, on time delivery and producing high quality products at very competitive prices. We are able to provide consignment and turnkey manufacturing solutions for through hole and surface mount assemblies, testing and right through to complete box builds.</p>
-    </div>
-    <div class="mx-auto  w-5/6">
-      <h2 class="text-2xl font-bold tracking-tight text-white sm:text-4xl">Collaborative Manufacturing</h2>
-      <p class="mt-6 text-lg text-justify leading-8 text-gray-300">When you work with Electronic Systems Manufacturing Corp (Elecsys MFG), you really do work with us. Creating working partnerships  with our customers enables us to better meet their individual needs whiles delivering products that exceed their expectations. We offer the skills and expertise of much larger contract manufacturers with flexibility, service and attention to detail.
-</p>
-    </div>
-    <div class="mx-auto  w-5/6">
-      <h2 class="text-2xl font-bold tracking-tight text-white sm:text-4xl">Adaptable Production Support</h2>
-      <p class="mt-6 text-lg text-justify leading-8 text-gray-300">We understand that at times Engineering Change orders need to be applied to product that is already on the production floor or  that some rework may be required for various reasons. Electronic Systems Manufacturing Corp (Elecsys MFG) are more than happy to assist in this area giving our customer's every opportunity to achieve their goal.</p>
-    </div>
-    <div class="mx-auto  w-5/6">
-      <h2 class="text-2xl font-bold tracking-tight text-white sm:text-4xl">Comprehensive Manufacturing Expertise</h2>
-      <p class="mt-6 text-lg text-justify leading-8 text-gray-300">Our experienced staff with over 30 years' experience in the manufacturing of electronic assemblies offer assistance in providing design and manufacturing solutions for new product indroduction (NPI), Limited Pilot Production (LPP) all the way to mass production. We understand that not all customers have high volume and as such accommodate low and medium volumes as well as high mix low volume products. Electronic Systems Manufacturing Corp (Elecsys MFG) as standard practise will offer recommendations for manufacturing cost reductions. This will ensure that all our customers' products are manufactured not only at the highest quality but also for the best possible price.</p>
-    </div>
-
-  </section>
-
-<div class="mx-auto mt-20  w-5/6">
-<a type="button" href="../resources/documents/Elecsys-Profile-08042023-Revision-11.pdf" download="ElecSys Company Profile.pdf" class="w-full justify-center px-6 py-3.5 text-base font-medium text-white inline-flex items-center text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80">
-
-  <svg lass="w-4 h-4 text-white mr-2"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-</svg>
-Download Company Profile
-</a>
-</div>
-
-<section class="mt-10 sm:mt-24 mb-22 flex justify-center p-2 sm:p-20  lg:p-0" id="virtual Tour">
 
 
-<a href="../main.php#capabilities" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="../resources/img/Elecsys Images/mission.png" alt="">
-    <div class="flex flex-col justify-between p-4 leading-normal">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Manufacturing Capabilities</h5>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">State-of-the-art equipment with highly skilled operators having over 30 years of experience.</p>
-    </div>
-</a>
-
-</section>
 </div>
 
 

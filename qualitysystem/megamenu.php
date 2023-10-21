@@ -403,11 +403,11 @@ display: block;
         <span class="sr-only">Close menu</span>
     </button>
     <div class="h-4/6 p-4 grid  grid-cols-2 md:grid-cols-3 gap-2">
-<a class="" href="main.php">  
+<a class="" href="../main.php">  
     <div class=" rounded-lg "  style="background-image: url('../resources/img/Elecsys Images/manufacturing-capabilitites.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Home<span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Home<span class="m-2"></i></span></div>
     
     </div>
     </div>
@@ -428,7 +428,7 @@ display: block;
     <div class=" rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_1_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Quality System<span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Quality System<span class="m-2"></i></span></div>
     
     </div>
     </div>
@@ -437,7 +437,7 @@ display: block;
     <div class=" rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_6_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">About Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">About Us <span class="m-2"></i></span></div>
     
     </div>
     </div>
@@ -446,7 +446,7 @@ display: block;
     <div class="rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_5_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Contact Us <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Contact Us <span class="m-2"></i></span></div>
     
     </div>
     </div>
@@ -455,7 +455,7 @@ display: block;
     <div class=" rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_3_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Virtual Tour <span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Virtual Tour <span class="m-2"></i></span></div>
     </div>
     </div>
             </a>
@@ -463,7 +463,7 @@ display: block;
     <div class=" rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_4_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
-    <div class="row-start-4 row-span-2 text-white font-extrabold">Capabilities<span class="m-2"><i class="fa-solid fa-greater-than"></i></span></div>
+    <div class="row-start-4 row-span-2 text-white font-extrabold">Capabilities<span class="m-2"></i></span></div>
     </div>
     </div>
             </a>

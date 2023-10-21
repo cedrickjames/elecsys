@@ -1,5 +1,6 @@
 
 <style>
+
 .main-navbar{
   transition: background-color 0.5s ease-in-out;
 }
@@ -225,7 +226,7 @@ display: block;
                     Certification
                   </p>
 
-                  <a href="../qualitysystem#certificates" aria-current="true"
+                  <a href="#certificates" aria-current="true"
                     class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Elecsys Images/cert.png"
@@ -239,7 +240,7 @@ display: block;
                       </p>Automotive Product</p>
                     </div>
                   </a>
-                  <a href="../qualitysystem#certificates2" aria-current="true"
+                  <a href="#certificates2" aria-current="true"
                     class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Elecsys Images/cert2.png"
@@ -261,7 +262,7 @@ display: block;
                     class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
                     Mission / Vision
                   </p>
-                  <a href="../qualitysystem#mission" aria-current="true"
+                  <a href="#mission" aria-current="true"
                     class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Background Images/home_no_4_min.jpg"
@@ -275,7 +276,7 @@ display: block;
                       <p></p>
                     </div>
                   </a>
-                  <a href="../qualitysystem#vision" aria-current="true"
+                  <a href="#vision" aria-current="true"
                     class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Background Images/home_no_6_min.jpg"
@@ -296,7 +297,7 @@ display: block;
                     class="block w-full  px-1 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 ">
                     Quality Policy
                   </p>
-                  <a href="../qualitysystem/#qualitypolicy" aria-current="true"
+                  <a href="#qualitypolicy" aria-current="true"
                     class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
                       <img src="../resources/img/Background Images/home_no_6_min.jpg"
@@ -319,17 +320,17 @@ display: block;
           </div>
         </li>
        
-        <li class=" mb-2 justify-center h-full items-center flex" >
-          <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
-            href="../aboutus" data-te-ripple-init data-te-ripple-color="light">About Us</a>
-        </li>
         <li class=" mb-2 justify-center h-full items-center flex" id="activeNav">
           <a class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-cyan-400 dark:focus:text-cyan-600 lg:px-2"
+            href="../aboutus" data-te-ripple-init data-te-ripple-color="light">About Us</a>
+        </li>
+        <li class=" mb-2 justify-center h-full items-center flex">
+          <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400 lg:px-2"
             href="../contact" data-te-ripple-init data-te-ripple-color="light">Contact Us</a>
         </li>
         <li class=" mb-2 justify-center h-full items-center flex">
           <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
-            href="../virtualTour" data-te-ripple-init data-te-ripple-color="light">Virtual Tour</a>
+            href="aboutus" data-te-ripple-init data-te-ripple-color="light">Virtual Tour</a>
         </li>
         <li class=" mb-2 justify-center h-full items-center flex">
           <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
@@ -451,7 +452,7 @@ display: block;
     </div>
     </div>
             </a>
-            <a class=""  >  
+            <a class="" href="../virtualTour" >  
     <div class=" rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_3_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
@@ -459,7 +460,7 @@ display: block;
     </div>
     </div>
             </a>
-            <a class="" >  
+            <a class="" href="../main.php#capabilities">  
     <div class=" rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_4_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 

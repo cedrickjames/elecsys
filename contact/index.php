@@ -252,12 +252,15 @@ activepage.classList.add("text-cyan-500");
 <div >
 <div class="h-screen">
 <!-- Section: Design Block -->
-<div class="relative overflow-hidden  h-4/5 lg:h-full">
-<div class="relative bg-gray-900 h-full"> 
-<div class="px-0 lg:px-0 bg-gradient-to-r from-sky-950 to-transparent via-gray-900 h-full">
+<div class="relative overflow-hidden   lg:h-full">
+<div class="relative bg-gray-900 "> 
+<div class="px-0 lg:px-0 bg-gradient-to-r from-sky-950 to-transparent via-gray-900 ">
     <!-- <div id="slideshow" class="absolute inset-0 bg-cover bg-no-repeat h-full"></div> -->
-<div class="relative pt-20 pb-4 isolate w-full p-4 lg:px-8 bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% h-full"  style="background-image: url('../resources/img/Wolrd Map1.png'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
+<div class="relative  isolate w-full   bg-gradient-to-r from-sky-950 from-10% to-transparent to-90%"  >
+<div class="flex justify-center " >
+  <img class="" src="../resources/img/Wolrd Map1.png" alt="">
 
+</div>
 
 <!--    
     <section class=" text-gray-600 body-font relative h-full w-full">
@@ -268,6 +271,7 @@ activepage.classList.add("text-cyan-500");
 </section> -->
  
   </div>
+  
 </div>
   </div>
 
@@ -440,13 +444,13 @@ activepage.classList.add("text-cyan-500");
                 <div style="background-color: #0f142a"
                   class="p-4  rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                   <a  href="https://www.messenger.com/t/100028355195877" target="_blank"  class="text-white hover:text-gray-200 dark:hover:text-white">
-                    <i class="fa-brands fa-facebook fa-lg"></i>
+                    <i class="fa-brands fa-facebook-messenger fa-lg"></i>
                   </a>
 
                 </div>
               </div>
               <div class="grow ml-6">
-                <p class="font-bold mb-1">Facebook</p>
+                <p class="font-bold mb-1">Messenger</p>
                 <a  href="https://www.messenger.com/t/100028355195877" target="_blank"  class="text-gray-500">Elecsys Manufacturing Corporation</a>
 
               </div>
