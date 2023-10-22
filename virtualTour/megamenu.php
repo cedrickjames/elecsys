@@ -300,7 +300,7 @@ display: block;
                   <a href="#qualitypolicy" aria-current="true"
                     class="flex w-full items-center  px-1 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="../resources/img/Background Images/home_no_6_min.jpg"
+                      <img src="../resources/img/Background Images/home_no_2_min.jpg"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
@@ -530,7 +530,8 @@ display: block;
                       <p class="mb-1 font-semibold ">
                       IATF 16949: 2016
                       </p>
-                      <!-- <p>near Sucat Exit SLEX</p> -->
+                      <p>Automotive Product</p>
+
                     </div>
                   </a>
                   <a href="../qualitysystem#certificates2" aria-current="true"
@@ -594,7 +595,7 @@ display: block;
                   <a href="../qualitysystem#mission" aria-current="true"
                     class="flex w-full items-center border-b border-neutral-200 px-6 py-3 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-400 dark:hover:text-black">
                     <div class="shrink-0">
-                      <img src="../resources/img/Background Images/home_no_6_min.jpg"
+                      <img src="../resources/img/Background Images/home_no_2_min.jpg"
                         class="w-14 rounded-lg rounded shadow-lg dark:shadow-black/10"
                         alt="Hollywood Sign on The Hill" />
                     </div>
