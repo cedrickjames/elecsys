@@ -152,7 +152,7 @@ activepage.classList.add("text-cyan-600");
 <div class="h-full">
 
 
-<div class="h-full bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% relative isolate overflow-hidden bg-gray-900  py-16 sm:py-24 md:py-32">
+<div class="h-full bg-gradient-to-r from-sky-950 from-10% to-transparent to-90% relative isolate overflow-hidden bg-gray-900  py-16 sm:py-24 md:py-20">
   <!-- <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"> -->
   <svg viewBox="0 0 1097 845" aria-hidden="true" class="hidden transform-gpu blur-3xl sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:w-[68.5625rem]">
     <path fill="url(#10724532-9d81-43d2-bb94-866e98dd6e42)" fill-opacity=".2" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
@@ -189,13 +189,11 @@ activepage.classList.add("text-cyan-600");
 <img class="h-auto max-w-lg rounded-lg" src="../resources/img/condominium-tall-blue-sky-skyscraper.jpg" alt="image description">
 
 </div> -->
-<h2 class="text-center mb-10 text-2xl font-bold tracking-tight text-white sm:text-4xl">Virtual Tour</h2>
-
+<!-- <h2 class="text-center mb-10 text-2xl font-bold tracking-tight text-white sm:text-4xl">Virtual Tour</h2> -->
 <div class="flex justify-center">
-<video class="w-4/5 h-4/5 max-w-full" controls>
-  <source src="../resources/vid/AVP ELECSYS (1).mp4" type="video/mp4">
-  
-</video>
+  <video class="w-11/12 sm:w-3/5 max-w-full" controls autoplay>
+    <source src="../resources/vid/AVP ELECSYS (1).mp4" type="video/mp4">
+  </video>
 </div>
 
 <!-- <section style=" height: 450px; background-image:url('../resources/img/ceo2.png'); background-position: center center;
@@ -229,19 +227,13 @@ activepage.classList.add("text-cyan-600");
 
 
 <footer style="background-color: #0f142a"class="p-4 ">
-    <div class="md:flex md:justify-between">
-        <div class="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" class="flex items-center">
+ 
+
+    <div class="flex items-center justify-between">
+       <a href="https://flowbite.com/" class="flex items-center">
                 <img src="../resources/img/logo/elecsys-logo-colored.png" class="h-8 mr-3" alt="Elecsys Logo" />
                 <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> -->
             </a>
-        </div>
-        
-    </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <div class="flex items-center justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2023 <a href="https://flowbite.com/" class="hover:underline">Elecsys</a>
-        </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a  href="https://www.messenger.com/t/100028355195877" target="_blank"  class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
