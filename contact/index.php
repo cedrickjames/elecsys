@@ -494,7 +494,7 @@ activepage.classList.add("text-cyan-500");
       </div>
     </div>
     <div class="flex flex-wrap">
-      <div class="grow-0 shrink-0 basis-auto  mb-4 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
+      <div class="h-64  grow-0 shrink-0 basis-auto  mb-4 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
         
       <!-- <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Elecsys Mfg. Corp, Lot 1B, Block 6, Phase II PEZA, Rosario, 4106 Cavite&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" style=""></iframe> -->
         <!-- <iframe width="100%" height="100%" class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=993&amp;height=400&amp;hl=en&amp;q=Repco Hoxton Park&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> -->
@@ -583,7 +583,7 @@ activepage.classList.add("text-cyan-500");
       </div>
     </div>
     <div class="flex flex-wrap">
-      <div class="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
+      <div class="h-64  grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
         
 
         
@@ -665,7 +665,7 @@ activepage.classList.add("text-cyan-500");
     <br>
     <br>
         <div class="flex flex-wrap">
-      <div class="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
+      <div class="h-64 grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
         
 
       <iframe class="gmap_iframe" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=14019 S GESSNER, STE D MISSOURI CITY, TX 77489&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
@@ -696,7 +696,7 @@ activepage.classList.add("text-cyan-500");
               </div>
               <div class="grow ml-6">
                 <p class="font-bold mb-1">Location</p>
-                <p class="text-gray-500">5424 Sunol Blvd 10 243 Pleasanton, CA 94566 USA</p>
+                <p class="text-gray-500">14019 S GESSNER, STE D MISSOURI CITY, TX 77489 USA</p>
 
               </div>
             </div>
@@ -731,8 +731,8 @@ activepage.classList.add("text-cyan-500");
                 </div>
               </div>
               <div class="grow ml-6">
-                <p class="font-bold mb-1">Telephone (Toll Free)</p>
-                <p class="text-gray-500">1-866-8993532</p>
+                <p class="font-bold mb-1">Telephone</p>
+                <p class="text-gray-500">281 881 2866</p>
 
 
               </div>

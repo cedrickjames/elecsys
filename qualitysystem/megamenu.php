@@ -333,7 +333,7 @@ display: block;
         </li>
         <li class=" mb-2 justify-center h-full items-center flex">
           <a class="block py-2 pr-2 transition duration-150 ease-in-out text-white hover:text-cyan-400  lg:px-2"
-            href="main.php#capabilities" data-te-ripple-init data-te-ripple-color="light">Capabilities</a>
+            href="../main.php#capabilities" data-te-ripple-init data-te-ripple-color="light">Capabilities</a>
         </li>
       </ul>
     </div>
@@ -459,7 +459,7 @@ display: block;
     </div>
     </div>
             </a>
-            <a class="" >  
+            <a class="" href="../main.php#capabilities" >  
     <div class=" rounded-lg "  style="background-image: url('../resources/img/Background Images/home_no_4_min.jpg'); background-position: center center;background-repeat: no-repeat;background-size: cover;">
     <div class=" rounded-lg p-4 grid grid-rows-4 grid-flow-col gap-4w-full h-full bg-gray-900 bg-opacity-50">
 
