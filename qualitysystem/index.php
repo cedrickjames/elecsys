@@ -487,27 +487,75 @@ activepage.classList.add("text-cyan-500");
             <br>
             
             <div  class="">
-            <p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">C</span>ontinually training all employees’ thereby enhancing their skills and Knowledge.
+            <p class="flex mb-4 text-white text-sm  md:text-5xl lg:text-3xl"> <span  style="color: #ffffff61;">  <svg class="w-10 h-10 text-green-500 dark:text-green-400 " fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg></span>Continually training all employees’ thereby enhancing their skills and Knowledge.
             </p>
-            <p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">C</span>ontinuous improvement by using Lean principles and necessary tools.
-           
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">T</span>uracking Key Performance Indicators (KPIs) by internal audits and reporting.
-           
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">E</span>nsuring that our Policy and Process Manuals reflect what we actually do.
-           
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">M</span>aking every staff member a part of the quality team not as individuals.
-           
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">R</span>equiring the same commitment from our suppliers.
-           
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">U</span>sing fair trade principles and acting ethically with honesty and integrity.
-           
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">E</span>stablishing processes to deliver products on time, with zero defects to our customers.
-           
-            </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">C</span>ontinuously improving our quality system to meet our customers’. expectations and meet the ISO9000 and IATF standards.
-           
-           </p><p class=" mb-4 text-white text-sm  md:text-5xl lg:text-xl"><span class="text-5xl font-extrabold font-serif"  style="color: #ffffff61;">T</span>rain all staff to exceed our customers’ expectations.
-           
-           </p>
+            <p class="flex mb-4 text-white text-sm  md:text-5xl lg:text-3xl"> <span  style="color: #ffffff61;">  <svg class="w-10 h-10 text-green-500 dark:text-green-400 " fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg></span>Continuous improvement by using Lean principles and necessary tools.
+            </p>
+            <p class="flex mb-4 text-white text-sm  md:text-5xl lg:text-3xl"> <span  style="color: #ffffff61;">  <svg class="w-10 h-10 text-green-500 dark:text-green-400 " fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg></span>Tracking Key Performance Indicators (KPIs) by internal audits and reporting.
+            </p>
+            <p class="flex mb-4 text-white text-sm  md:text-5xl lg:text-3xl"> <span  style="color: #ffffff61;">  <svg class="w-10 h-10 text-green-500 dark:text-green-400 " fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg></span>Ensuring that our Policy and Process Manuals reflect what we actually do
+            </p>
+            <p class="flex mb-4 text-white text-sm  md:text-5xl lg:text-3xl"> <span  style="color: #ffffff61;">  <svg class="w-10 h-10 text-green-500 dark:text-green-400 " fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg></span>Making every staff member a part of the quality team not as individuals.
+            </p>
+            <p class="flex mb-4 text-white text-sm  md:text-5xl lg:text-3xl"> <span  style="color: #ffffff61;">  <svg class="w-10 h-10 text-green-500 dark:text-green-400 " fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg></span>Requiring the same commitment from our suppliers.
+            </p>
+            <p class="flex mb-4 text-white text-sm  md:text-5xl lg:text-3xl"> <span  style="color: #ffffff61;">  <svg class="w-10 h-10 text-green-500 dark:text-green-400 " fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg></span>
+                    Using fair trade principles and acting ethically with honesty and integrity.
+            </p> <p class="flex mb-4 text-white text-sm  md:text-5xl lg:text-3xl"> <span  style="color: #ffffff61;">  <svg class="w-10 h-10 text-green-500 dark:text-green-400 " fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg></span>Establishing processes to deliver products on time, with zero defects to our customers.
+            </p> <p class="flex mb-4 text-white text-sm  md:text-5xl lg:text-3xl"> <span  style="color: #ffffff61;">  <svg class="w-10 h-10 text-green-500 dark:text-green-400 " fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg></span>Continuously improving our quality system to meet our customers’. expectations and meet the ISO9000 and IATF standards.
+            </p> <p class="flex mb-4 text-white text-sm  md:text-5xl lg:text-3xl"> <span  style="color: #ffffff61;">  <svg class="w-10 h-10 text-green-500 dark:text-green-400 " fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"></path>
+                    </svg></span>Train all staff to exceed our customers’ expectations.
+            </p>
+       
             
             </div>
          
